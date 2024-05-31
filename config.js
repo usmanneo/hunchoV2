@@ -7,24 +7,24 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="keithkeizza@gmail.com"
-global.location="Migori,Kenya."
+global.email ="hunterpasha456@gmail.com"
+global.location="lahor,pakistan."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Kenya";
-global.github=process.env.GITHUB|| "https://github.com/Keithkeizzah/hunchoV2";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47";
-global.website=process.env.GURL || "https://youtube.com/@keithkeizzah?si=PviuOaZQHHvAjpxH" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/24893b7355f6ee0312230.jpg" ; // SET LOGO FOR IMAGE 
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.github=process.env.GITHUB|| "https://github.com/usmanneo";
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/FaqPYCEsxE95vr4SP78HeD";
+global.website=process.env.GURL || "https://chat.whatsapp.com/FaqPYCEsxE95vr4SP78HeD" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/30230e94c9a6c1894f190.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "923184474176" // Developer Contact
+global.devs = "923034088220" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254748387615";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923034088220";
 
 
 
@@ -38,7 +38,7 @@ global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable W
 global.warncount = process.env.WARN_COUNT || 3,
 global.disablepm = process.env.DISABLE_PM || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/24893b7355f6ee0312230.jpg",
+global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/30230e94c9a6c1894f190.jpg",
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -59,24 +59,24 @@ global.scan = "https://keith-app-session-6d1313c4f8e5.herokuapp.com/";
 
 module.exports = {
 
-  menu: process.env.MENU || "A17_MD", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "Usman_MD", /**  Available @MENU @Schemes 1: Usman_Md, 2: A17_Md, 3: Usman-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙺𝙴𝙸𝚃𝙷-𝚃𝙴𝙲𝙷" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 Usman" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ Usman²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • H4k3r Tools』*\n youtube.com/@H4K3RTools"),
  
-  author : process.env.PACK_AUTHER|| "Keith",
+  author : process.env.PACK_AUTHER|| "Usman",
   packname: process.env.PACK_NAME || "👑",
-  botname : process.env.BOT_NAME  || "𝐊𝐄𝐈𝐓𝐇-𝐌𝐃",
-  ownername:process.env.OWNER_NAME|| "It'x 𝐊𝐄𝐈𝐓𝐇",
+  botname : process.env.BOT_NAME  || "Usman-𝐌𝐃",
+  ownername:process.env.OWNER_NAME|| "It'x Usman",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
-  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "2GBv7MBGs7NossXTnN1rsvvX",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
@@ -84,7 +84,7 @@ module.exports = {
 
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "ADAM",
 
 
